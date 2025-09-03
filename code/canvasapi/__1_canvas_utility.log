@@ -1,0 +1,16 @@
+2025-08-22 08:02:23,989 - INFO - base_url: 'https://nku.instructure.com/api/v1/'
+2025-08-22 08:02:23,989 - INFO - per_page: None
+2025-08-22 08:02:23,989 - INFO - access_token: 7511~u… (masked)
+2025-08-22 08:02:24,798 - INFO - Folder found: Uploaded Media
+2025-08-22 08:02:24,798 - INFO - Folder ID: 1432357
+2025-08-22 08:02:25,024 - INFO - File Name: CleanShot 2023-12-07 at 16.35.08@2x.png, File ID: 12271653
+2025-08-22 08:02:25,024 - INFO - File Name: img1.png, File ID: 12723968
+2025-08-22 08:02:25,024 - INFO - File Name: Screen Shot 2022-08-15 at 11.54.36 AM.png, File ID: 12271594
+2025-08-22 08:02:25,024 - INFO - File Name: Screen Shot 2022-10-11 at 10.14.04 PM.png, File ID: 12271581
+2025-08-22 08:02:25,642 - INFO - Folder found: Uploaded Media
+2025-08-22 08:02:25,642 - INFO - Folder ID: 1432357
+2025-08-22 08:02:26,455 - INFO - uploaded_file is a dictionary
+2025-08-22 08:02:26,456 - INFO - ✅ File uploaded! File ID: 12723968, Display Name: img1.png
+2025-08-22 08:02:26,456 - INFO - File uploaded successfully:
+2025-08-22 08:02:26,456 - INFO -  - File Name: img1.png
+2025-08-22 08:02:26,456 - INFO -  - File ID: 12723968

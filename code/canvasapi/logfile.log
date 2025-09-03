@@ -1,0 +1,4 @@
+2025-08-20 11:48:34,317 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nku.instructure.com:443
+2025-08-20 11:48:34,616 - urllib3.connectionpool - DEBUG - https://nku.instructure.com:443 "GET /api/v1/courses/81929 HTTP/1.1" 200 None
+2025-08-20 11:48:35,351 - urllib3.connectionpool - DEBUG - https://nku.instructure.com:443 "GET /api/v1/courses/81929/search_users?per_page=100 HTTP/1.1" 200 None
+2025-08-20 11:48:35,370 - __main__ - DEBUG - User ID: 180112, Name: Abdullahi Abdirahamn
