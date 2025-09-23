@@ -1,0 +1,5 @@
+uv.lock
+.env
+.venv/
+.DS_Store
+_json/

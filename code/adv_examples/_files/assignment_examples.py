@@ -1,0 +1,3 @@
+import canvas.assignment_manager as assignment_manager
+
+assignment_manager.CanvasCourseManager
