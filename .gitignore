@@ -1,5 +1,261 @@
-uv.lock
-.env
-.venv/
+.gitignore.backup.*
+
+############################################
+# OS / Editor / IDE generated files
+############################################
+
+# macOS
 .DS_Store
-_json/
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+############################################
+# Logs & temporary files
+############################################
+
+# Log files
+*.log
+logs/
+log/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+############################################
+# Dependency directories
+############################################
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env/
+.venv/
+venv/
+
+# PHP / Composer
+vendor/
+
+# Ruby
+.bundle/
+vendor/bundle/
+
+############################################
+# Build / distribution outputs
+############################################
+
+# General build output
+build/
+dist/
+out/
+target/
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.class
+
+############################################
+# Environment & secrets (VERY IMPORTANT)
+############################################
+
+# Environment variable files
+.env
+.env.*
+!.env.example
+
+# Credentials & secrets
+*.pem
+*.key
+*.crt
+*.p12
+*.keystore
+secrets/
+credentials/
+
+############################################
+# Database & runtime data
+############################################
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Runtime-generated data
+data/
+storage/
+cache/
+
+############################################
+# Docker
+############################################
+
+# Docker runtime files
+docker-compose.override.yml
+.env.docker
+
+############################################
+# Testing & coverage
+############################################
+
+# Coverage reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Test result artifacts
+test-results/
+junit.xml
+
+############################################
+# Documentation build artifacts
+############################################
+
+# Generated docs
+docs/_build/
+site/
+public/
+
+############################################
+# Flutter / Dart (ASE456 Mobile Dev)
+############################################
+
+# Flutter/Dart Tool files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Build outputs
+*.ap_
+*.aab
+
+############################################
+# iOS (Flutter iOS builds)
+############################################
+
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcworkspace
+*.xcuserdata
+Pods/
+ios/.symlinks/
+ios/Flutter/.last_build_id
+
+############################################
+# Android (Flutter Android builds)
+############################################
+
+*.apk
+local.properties
+.gradle/
+gradle-wrapper.jar
+captures/
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+############################################
+# JavaScript / TypeScript / React
+############################################
+
+# Build outputs
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# Lock files (optional - depends on team policy)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+############################################
+# Java
+############################################
+
+gradle/
+gradlew
+gradlew.bat
+
+############################################
+# Laravel / PHP specific (ASE230)
+############################################
+
+bootstrap/cache/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/logs/
+.phpunit.result.cache
+
+############################################
+# Educational / Student Work
+############################################
+
+# Student submissions (if collecting via Git)
+submissions/
+student-work/
+
+# Auto-grader outputs
+grading-results/
+
+############################################
+# Misc
+############################################
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Backup files
+*.bak
+*.old
+*.orig
